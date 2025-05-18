@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wes-portfolio", "src\wes-portfolio\wes-portfolio.csproj", "{3C5E42EC-E0B8-C561-4B49-0E589F6074B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wes-portfolio.Client", "src\wes-portfolio.Client\wes-portfolio.Client.csproj", "{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C5E42EC-E0B8-C561-4B49-0E589F6074B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5E42EC-E0B8-C561-4B49-0E589F6074B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5E42EC-E0B8-C561-4B49-0E589F6074B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5E42EC-E0B8-C561-4B49-0E589F6074B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C5E42EC-E0B8-C561-4B49-0E589F6074B9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4EA2E3FC-59C3-9C4B-1631-06AE56B762CE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4817636C-8991-4804-8E03-64DE626D1283}
+	EndGlobalSection
+EndGlobal
