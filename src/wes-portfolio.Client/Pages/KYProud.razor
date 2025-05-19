@@ -1,29 +1,30 @@
 ﻿@attribute [Route(PageRoute.KYProudRoute)]
 
-<MudText Typo="Typo.h3" GutterBottom="true">KYProud Page</MudText>
-<MudGrid Justify="Justify.SpaceBetween">
-    <MudItem lg="6">
-        <MudImage Src="images/kafc/login.png" Fluid="fluid"></MudImage>
+<MudGrid Justify="Justify.SpaceBetween">   
+    <MudItem xs="12" Class="my-4" Style="text-align:center;">
+        <MudImage Src="images/kyproud/kyp-color.png" Alt="kyproud logo" Class="rounded-lg" Fluid="fluid" Width="275"/>
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/sidebar_HomePage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kyproud/loginwithnotice.png" Alt="login screen" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/bflp_application.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kyproud/application.png" Alt="application img 1" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/bflp_loanpage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kyproud/applicationcap-2.png" Alt="application img 2" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/homepage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kyproud/application-review.png" Alt="application review" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/lavlp_loanpage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kyproud/memberpage-1.png" Alt="member page 1" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
     </MudItem>
-
+    <MudItem lg="6">
+        <MudImage Src="images/kyproud/memberpage-2.png" Alt="member page 2" Fluid="fluid" Class="rounded-lg" Elevation="elevation"></MudImage>
+    </MudItem>
 </MudGrid>
 
 @code {
-    int width = 800;
     bool fluid = true;
+    int elevation = 2;
 }

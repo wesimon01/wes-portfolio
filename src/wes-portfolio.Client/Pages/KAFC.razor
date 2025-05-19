@@ -1,29 +1,31 @@
 ﻿@attribute [Route(PageRoute.KAFCRoute)]
+@attribute [Route(PageRoute.Home)]
 
-<MudText Typo="Typo.h3" GutterBottom="true">KAFC page</MudText>
 <MudGrid Justify="Justify.SpaceBetween">
-    <MudItem lg="6">
-        <MudImage Src="images/kafc/login.png" Fluid="fluid"></MudImage>
+    <MudItem xs="12" Class="my-4" Style="text-align:center;">
+        <MudImage Src="images/kafc/kafc-logo.png" Alt="Login Screen" Class="rounded-lg" Fluid="fluid" />
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/sidebar_HomePage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kafc/login.png" Alt="Login Screen" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/bflp_application.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kafc/sidebar_HomePage.png" Alt="Home Page" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/bflp_loanpage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kafc/bflp_application.png" Alt="BFLP Application" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/homepage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kafc/bflp_loanpage.png" Alt="BFLP Loan Page" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
     </MudItem>
     <MudItem lg="6">
-        <MudImage Src="images/kafc/lavlp_loanpage.png" Fluid="fluid"></MudImage>
+        <MudImage Src="images/kafc/homepage.png" Alt="Home Page" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
     </MudItem>
- 
+    <MudItem lg="6">
+        <MudImage Src="images/kafc/lavlp_loanpage.png" Alt="Vet Loan Page" Class="rounded-lg" Fluid="fluid" Elevation="elevation" />
+    </MudItem>
 </MudGrid>
 
 @code {
-    int width = 800;
     bool fluid = true;
+    int elevation = 2;
 }
